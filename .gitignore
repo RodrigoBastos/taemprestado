@@ -2,9 +2,12 @@
 # http://git-scm.com/docs/gitignore
 
 node_modules/
-platforms/
+platforms/^.*
 plugins/
 
 appemprestado.iml
 
 .idea
+
+*.keystore
+*.sw*
